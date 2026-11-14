@@ -1,0 +1,23 @@
+{
+  "name": "Voice Companion",
+  "description": "Real-time voice chat: auto-send speech, read replies sentence by sentence, barge-in support",
+  "mic.button": "Voice call",
+  "panel.title": "Voice Companion",
+  "panel.listening": "Listening…",
+  "panel.thinking": "Thinking…",
+  "panel.speaking": "Speaking",
+  "panel.idle": "Idle",
+  "panel.hangup": "Hang up",
+  "panel.skip": "Stop reading",
+  "panel.interrupt": "Interrupt",
+  "panel.settings": "Settings",
+  "panel.voice": "Voice",
+  "panel.rate": "Rate",
+  "panel.autoSend": "Auto send",
+  "panel.bargeIn": "Voice interrupt",
+  "panel.wakeWord": "Wake word",
+  "panel.sensitivity": "Mic sensitivity",
+  "panel.otherTab": "Another tab is in a call",
+  "panel.fallbackVoice": "Fell back to system voice",
+  "panel.manualSend": "Press Enter to send"
+}

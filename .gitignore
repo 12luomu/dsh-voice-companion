@@ -1,0 +1,7 @@
+node_modules/
+*.log
+tools/
+._ttsprobe.mjs
+test/asr-sample.wav
+test/.tmp-records/
+test/.fs-probe.txt

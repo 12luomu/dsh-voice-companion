@@ -1,0 +1,23 @@
+{
+  "name": "语音伙伴",
+  "description": "实时语音对话：说话自动发送，回复逐句朗读，可语音打断",
+  "mic.button": "语音通话",
+  "panel.title": "语音伙伴",
+  "panel.listening": "聆听中…",
+  "panel.thinking": "思考中…",
+  "panel.speaking": "正在朗读",
+  "panel.idle": "待机",
+  "panel.hangup": "结束通话",
+  "panel.skip": "停止朗读",
+  "panel.interrupt": "打断",
+  "panel.settings": "设置",
+  "panel.voice": "音色",
+  "panel.rate": "语速",
+  "panel.autoSend": "自动发送",
+  "panel.bargeIn": "允许语音打断",
+  "panel.wakeWord": "唤醒词",
+  "panel.sensitivity": "麦克风灵敏度",
+  "panel.otherTab": "另一个标签页正在通话",
+  "panel.fallbackVoice": "已回退系统语音",
+  "panel.manualSend": "请手动按回车发送"
+}

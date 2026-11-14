@@ -1,0 +1,52 @@
+{
+  "name": "dsh-voice-companion",
+  "version": "0.1.32",
+  "description": "Realtime voice assistant for DeepSeek Harness: a floating orb, wake word, barge-in, per-topic voice transcripts, task delegation to the main conversation.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "voice",
+    "speech",
+    "tts",
+    "asr",
+    "voice-assistant"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12luomu/dsh-voice-companion.git"
+  },
+  "homepage": "https://github.com/12luomu/dsh-voice-companion",
+  "bugs": {
+    "url": "https://github.com/12luomu/dsh-voice-companion/issues"
+  }
+}

@@ -1,0 +1,7 @@
+url: https://github.com/12luomu/dsh-voice-companion
+name: dsh-voice-companion
+category: voice
+icon: https://raw.githubusercontent.com/12luomu/dsh-voice-companion/main/icon.svg
+description:
+  en: "Realtime voice assistant for DSH as a floating orb: wake word, barge-in, browser VAD with local speech recognition, per-topic transcripts with export and delete, and task delegation to the main conversation with spoken results."
+  zh: "DSH 的实时语音助手：常驻悬浮球，支持唤醒词、随时插话、浏览器断句 + 本地语音识别，按话题保存语音记录并可导出/删除，还能把任务委托给主对话并口头播报结果。"
